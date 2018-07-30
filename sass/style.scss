@@ -209,6 +209,7 @@ body {
             border-left: 2px solid #393939;
             padding: 25px;
             flex-direction: row;
+            margin-bottom: 30px;
             &:nth-last-child(1){
                 border-right: 2px solid #393939;
             }
@@ -233,5 +234,80 @@ body {
                 }
             }
         }
+    }
+}
+.our-projects {
+    background-color: #f7f7f7;
+    .title {
+        color: #000000;
+        font-family: "Montserrat - Semi Bold";
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        margin-top: 50px;
+    }
+    .smalltitle {
+        font-family: "Montserrat - Semi Bold";
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #aeaeae;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu {
+        width: 710px;
+        height: 58px;
+        border: 1px solid #cfcfcf;
+        background-color: #ededed;
+        border-radius: 30%;
+        display: block;
+        text-align: center;
+        ul {
+			list-style-type: none;
+			float: right;
+			li {
+                display: inline-block;
+                text-decoration: none;
+                a {
+                    color: #000000;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 18px;
+                    text-transform: uppercase;
+                }
+            }
+        }    
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        img {
+            margin: 15px;
+            width: 255px;
+            height: 165px;
+            &:hover {
+                background-color: #000000;
+                opacity: 0.75;
+            }
+        }
+    }
+    button {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        text-transform: uppercase;
+        border-radius: 12px;
+        display: block;
+        width: 194px;
+        height: 45px;
+        background-color: #b88b58;
+        margin: 30px auto;
     }
 }

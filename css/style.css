@@ -303,6 +303,7 @@ body {
   padding: 25px;
   -ms-flex-direction: row;
       flex-direction: row;
+  margin-bottom: 30px;
 }
 
 .services .flex .item:nth-last-child(1) {
@@ -330,5 +331,93 @@ body {
   font-size: 12px;
   font-weight: 300;
   text-transform: none;
+}
+
+.our-projects {
+  background-color: #f7f7f7;
+}
+
+.our-projects .title {
+  color: #000000;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+}
+
+.our-projects .smalltitle {
+  font-family: "Montserrat - Semi Bold";
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #aeaeae;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.our-projects .menu {
+  width: 710px;
+  height: 58px;
+  border: 1px solid #cfcfcf;
+  background-color: #ededed;
+  border-radius: 30%;
+  display: block;
+  text-align: center;
+}
+
+.our-projects .menu ul {
+  list-style-type: none;
+  float: right;
+}
+
+.our-projects .menu ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.our-projects .menu ul li a {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.our-projects .gallery {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.our-projects .gallery img {
+  margin: 15px;
+  width: 255px;
+  height: 165px;
+}
+
+.our-projects .gallery img:hover {
+  background-color: #000000;
+  opacity: 0.75;
+}
+
+.our-projects button {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  display: block;
+  width: 194px;
+  height: 45px;
+  background-color: #b88b58;
+  margin: 30px auto;
 }
 /*# sourceMappingURL=style.css.map */
